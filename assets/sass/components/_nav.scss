@@ -1,0 +1,18 @@
+.cabecera{
+    img{
+        width: 100%;
+    }
+
+    ul{
+        li{
+            display: inline;
+        }
+    }
+}
+
+.nav{
+    height: 20vh;
+    position: fixed;
+    background-color: rgba(149,148,148,0.4);
+    
+}
