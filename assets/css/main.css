@@ -9753,10 +9753,19 @@ a {
   position: fixed;
   background-color: rgba(149, 148, 148, 0.4);
 }
+.nav .redes {
+  padding-top: 6vh;
+}
+.nav .menu {
+  padding-top: 9vh;
+}
+.nav .logo {
+  padding-top: 10px;
+}
 
 header {
   height: 100vh;
-  background-image: url(assets/img/imagenconecta1.png);
+  background-image: url("../img/imagenconecta1.png");
 }
 
 section {
