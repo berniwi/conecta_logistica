@@ -1,29 +1,27 @@
-.cabecera{
-    img{
-        width: 100%;
-    }
 
-    ul{
-        li{
-            display: inline;
+.nav{
+    height: 12vh;
+    position: fixed;
+    background-color: $blanco;
+    //background-color: rgba(149,148,148,0.4);
+    
+    .redes{
+        padding-top: 1vh;
+        }   
+    
+    .menu{
+        ul{
+            li{
+                display: inline;
+            }
+        }
+    }
+    
+    .logo{
+        width: 10%;
+        img{
+            width: 100%;
         }
     }
 }
 
-.nav{
-    height: 20vh;
-    position: fixed;
-    background-color: rgba(149,148,148,0.4);
-
-    .redes{
-        padding-top: 6vh;
-    }   
-
-    .menu{
-        padding-top: 9vh;
-    }
-
-    .logo{
-        padding-top: 10px;
-    }
-}

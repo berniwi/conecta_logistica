@@ -9659,6 +9659,10 @@ h3 {
   box-sizing: border-box;
 }
 
+.container-fluid {
+  display: flex;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -9741,26 +9745,22 @@ a {
   color: #000;
 }
 
-.cabecera img {
-  width: 100%;
-}
-.cabecera ul li {
-  display: inline;
-}
-
 .nav {
-  height: 20vh;
+  height: 12vh;
   position: fixed;
-  background-color: rgba(149, 148, 148, 0.4);
+  background-color: #fff;
 }
 .nav .redes {
-  padding-top: 6vh;
+  padding-top: 1vh;
 }
-.nav .menu {
-  padding-top: 9vh;
+.nav .menu ul li {
+  display: inline;
 }
 .nav .logo {
-  padding-top: 10px;
+  width: 10%;
+}
+.nav .logo img {
+  width: 100%;
 }
 
 header {
