@@ -7,7 +7,7 @@ section{
     background-color: $azul1;
 
     .titulo{
-        padding: 20vh 0 0 10%;
+        padding: 20vh 0 0 11%;
 
         h2{
             font-weight: 800;
@@ -40,7 +40,7 @@ section{
 .areas_trabajo{
     background-color: $rojo1;
     .titulo{
-        padding: 20vh 0 0 12%;
+        padding: 20vh 0 0 11%;
 
         h2{
             font-weight: 800;
@@ -48,7 +48,7 @@ section{
     }
 
     .contenido{
-        padding: 8vh 8vw 0 8vw;
+        padding: 8vh 9% 0 9%;
         display: flex;
         justify-content: space-between;
 
@@ -79,13 +79,56 @@ section{
 }
 
 .estamos{
-    display: none;
     background-color: $azul1;
+    .titulo{
+        padding: 20vh 0 0 11%;
+
+        h2{
+            font-weight: 800;
+        }
+    }
+
+    .contenido{
+        background-color: green;
+
+        .noticia{
+            height: 60vh;
+            background-color: white;
+        }
+    }
 }
 
 .contacto{
+
+    height: 95vh;
+    display: flex;
+
     .formulario{
         padding-top: 15vh;
-        padding-left: 10%;
+        padding-left: 9%;
+        width: 55%;
     }
+
+    .redes_contactos{
+        padding-top: 15vh;
+        padding-left: 10%;
+        width: 40%;
+
+        img{
+            width: 50%;
+            margin-bottom: 10%;
+        }
+
+        div{
+            padding: 5% 0;
+
+            p{
+                display: inline;
+                padding-left: 5%;
+            }
+        }
+
+        
+    }
+
 }
