@@ -9789,7 +9789,7 @@ section {
   background-color: #338BAE;
 }
 .quienes_somos .titulo {
-  padding: 8vh 0 0 12%;
+  padding: 20vh 0 0 12%;
 }
 .quienes_somos .contenido {
   height: 80vh;
@@ -9800,7 +9800,13 @@ section {
   align-items: center;
 }
 .quienes_somos .contenido .parrafo {
-  width: 30%;
+  width: 40%;
+}
+.quienes_somos .contenido .parrafo p {
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  line-height: 140%;
 }
 
 .areas_trabajo {

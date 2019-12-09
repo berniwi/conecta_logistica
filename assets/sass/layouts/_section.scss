@@ -7,7 +7,7 @@ section{
     background-color: $azul1;
 
     .titulo{
-        padding: 8vh 0 0 12%;
+        padding: 20vh 0 0 12%;
     }
     
     .contenido{
@@ -20,8 +20,17 @@ section{
         align-items: center;
 
         .parrafo{
-            width: 30%;
+            width: 40%;
+
+            p{
+               color: white;
+               padding-top: 5px;
+               padding-bottom: 15px;
+               line-height: 140%;
+            }
+
         }
+
     }
 }
 
