@@ -11,12 +11,11 @@ section{
     }
 
     .contenido{
-        background-color: green;
         height: 80vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
 
+        .parrafo{
+            display: inline;
+        }
     }
 }
 

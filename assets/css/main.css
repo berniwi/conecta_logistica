@@ -9743,6 +9743,7 @@ a {
 
 .nav {
   height: 12vh;
+  width: 100vw;
   position: fixed;
   display: flex;
   justify-content: space-between;
@@ -9791,11 +9792,10 @@ section {
   padding: 8vh 0 15px 12%;
 }
 .quienes_somos .contenido {
-  background-color: green;
   height: 80vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+}
+.quienes_somos .contenido .parrafo {
+  display: inline;
 }
 
 .areas_trabajo {
