@@ -9659,10 +9659,6 @@ h3 {
   box-sizing: border-box;
 }
 
-.container-fluid {
-  display: flex;
-}
-
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -9748,13 +9744,19 @@ a {
 .nav {
   height: 12vh;
   position: fixed;
-  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px 0 10px;
+  background-color: rgba(149, 148, 148, 0.4);
 }
-.nav .redes {
-  padding-top: 1vh;
+.nav .redes a {
+  padding-left: 10px;
 }
 .nav .menu ul li {
   display: inline;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .nav .logo {
   width: 10%;
@@ -9767,14 +9769,25 @@ header {
   height: 100vh;
   background-image: url("../img/imagenconecta1.png");
 }
+header .cabecera {
+  height: 90vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+header .cabecera h1 {
+  color: #fff;
+}
 
 section {
   height: 100vh;
-  padding: 20vh;
 }
 
 .quienes_somos {
   background-color: #338BAE;
+}
+.quienes_somos .titulo {
+  padding: 10px 0 10px 10px;
 }
 
 .areas_trabajo {
