@@ -5,24 +5,52 @@ section{
 
 .quienes_somos{
     background-color: $azul1;
-    
-    .titulo{
-        padding: 8vh 0 15px 12%;
-    }
 
+    .titulo{
+        padding: 8vh 0 0 12%;
+    }
+    
     .contenido{
+
         height: 80vh;
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 
         .parrafo{
-            display: inline;
+            width: 30%;
         }
     }
 }
 
 .areas_trabajo{
     background-color: $rojo1;
+    .titulo{
+        padding: 8vh 0 0 12%;
+    }
+
+    .contenido{
+        padding: 10vh 8vw 0 8vw;
+        display: flex;
+        justify-content: space-between;
+
+        .tarjeta{
+            background-color: $amarillo;
+            height: 60vh;
+            width: 25vw;
+            border-radius: 30px;
+            padding: 30px 10px;
+
+            img{
+                width: 50%;
+            }
+        }
+    }
 }
 
 .estamos{
+    display: none;
     background-color: $azul1;
 }
