@@ -9721,7 +9721,7 @@ h1 {
 
 h2 {
   font-family: "Open Sans", sans-serif;
-  font-size: 22px;
+  font-size: 30px;
   font-size: 700;
   color: #fff;
 }
@@ -9753,11 +9753,13 @@ a {
 }
 .nav .redes a {
   padding-left: 10px;
+  color: #fff;
 }
 .nav .menu ul li {
   display: inline;
   padding-left: 15px;
   padding-right: 15px;
+  font-weight: 800;
 }
 .nav .logo {
   width: 10%;
@@ -9789,7 +9791,10 @@ section {
   background-color: #338BAE;
 }
 .quienes_somos .titulo {
-  padding: 20vh 0 0 12%;
+  padding: 20vh 0 0 15%;
+}
+.quienes_somos .titulo h2 {
+  font-weight: 800;
 }
 .quienes_somos .contenido {
   height: 80vh;
@@ -9804,8 +9809,7 @@ section {
 }
 .quienes_somos .contenido .parrafo p {
   color: white;
-  padding-top: 5px;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
   line-height: 140%;
 }
 
@@ -9813,10 +9817,13 @@ section {
   background-color: #E03E51;
 }
 .areas_trabajo .titulo {
-  padding: 8vh 0 0 12%;
+  padding: 20vh 0 0 12%;
+}
+.areas_trabajo .titulo h2 {
+  font-weight: 800;
 }
 .areas_trabajo .contenido {
-  padding: 10vh 8vw 0 8vw;
+  padding: 8vh 8vw 0 8vw;
   display: flex;
   justify-content: space-between;
 }
@@ -9825,11 +9832,19 @@ section {
   height: 60vh;
   width: 25vw;
   border-radius: 30px;
-  padding: 30px 10px;
+  padding-top: 30px;
   text-align: center;
 }
 .areas_trabajo .contenido .tarjeta img {
   width: 50%;
+}
+.areas_trabajo .contenido .tarjeta h3 {
+  font-weight: 700;
+  padding: 15px;
+}
+.areas_trabajo .contenido .tarjeta p {
+  padding: 15px 40px 15px 70px;
+  text-align: left;
 }
 
 .estamos {
@@ -9837,13 +9852,39 @@ section {
   background-color: #338BAE;
 }
 
+.contacto .formulario {
+  padding-top: 15vh;
+  padding-left: 10vw;
+}
+
 footer {
   background-color: #1D1D1D;
-  height: 20vh;
+  height: 40vh;
   text-align: center;
 }
-footer img {
-  width: 20%;
+footer .logos {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  width: 100vw;
+}
+footer .logos .conecta {
+  width: 15%;
+}
+footer .logos .mtt {
+  height: 20vh;
+}
+footer .logos .corfo {
+  width: 15%;
+}
+footer .links {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+footer .links .ref {
+  display: inline;
+  font-size: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */

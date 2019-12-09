@@ -1,9 +1,37 @@
 footer{
     background-color: $negro1;
-    height: 20vh;
+    height: 40vh;
     text-align: center;
 
-    img{
-        width: 20%;
+    .logos{
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+        width: 100vw;
+        .conecta{
+            width: 15%;
+        }
+    
+        .mtt{
+            height: 20vh;
+        }
+    
+        .corfo{
+            width: 15%;
+        }
+    
     }
+
+    .links
+    {
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+        .ref{
+            display: inline;
+            font-size: $small;
+        }
+    }
+
+
 }
