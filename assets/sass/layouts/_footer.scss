@@ -1,37 +1,46 @@
-footer{
-    background-color: $negro1;
-    height: 40vh;
-    text-align: center;
+@media screen and (min-width: $viewport-large) {
+    footer{
+        background-color: $negro1;
+        height: 40vh;
+        text-align: center;
 
-    .logos{
-        display: flex;
-        justify-content: center;
-        padding-top: 40px;
-        width: 100vw;
-        .conecta{
-            width: 15%;
+        .logos{
+            display: flex;
+            justify-content: center;
+            padding-top: 40px;
+            width: 100vw;
+            .conecta{
+                width: 15%;
+            }
+        
+            .mtt{
+                height: 20vh;
+            }
+        
+            .corfo{
+                width: 15%;
+            }
+        
         }
-    
-        .mtt{
-            height: 20vh;
+
+        .links
+        {
+            display: flex;
+            justify-content: center;
+            padding-top: 50px;
+            .ref{
+                display: inline;
+                font-size: $small;
+            }
         }
-    
-        .corfo{
-            width: 15%;
-        }
-    
+
+
     }
+}
 
-    .links
-    {
-        display: flex;
-        justify-content: center;
-        padding-top: 50px;
-        .ref{
-            display: inline;
-            font-size: $small;
-        }
+
+@media screen and (max-width: $viewport-large) {
+    footer{
+        display: none;
     }
-
-
 }
