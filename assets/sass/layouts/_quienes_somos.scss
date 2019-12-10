@@ -1,4 +1,4 @@
-@media screen and (min-width: $viewport-large) {
+@media screen and (min-width: $viewport-ml) {
 
     .quienes_somos{
         background-color: $azul1;
@@ -34,7 +34,7 @@
     }
 }
 
-@media screen and (max-width: $viewport-large) {
+@media screen and (max-width: $viewport-ml) {
 
     .quienes_somos{
         background-color: $azul1;

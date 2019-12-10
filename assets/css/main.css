@@ -9787,6 +9787,8 @@ a {
     width: 100vw;
     position: fixed;
     padding: 10px 100px 0 30px;
+    display: flex;
+    justify-content: space-between;
   }
   .nav .redes {
     display: none;
@@ -9835,7 +9837,7 @@ header {
     color: #C30017;
   }
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 992px) {
   .quienes_somos {
     background-color: #338BAE;
   }
@@ -9862,7 +9864,7 @@ header {
     line-height: 140%;
   }
 }
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 992px) {
   .quienes_somos {
     background-color: #338BAE;
   }
@@ -9964,9 +9966,10 @@ header {
 @media screen and (min-width: 992px) {
   .areas_trabajo {
     background-color: #E03E51;
+    height: 100vh;
   }
   .areas_trabajo .titulo {
-    padding: 15vh 0 20px 11%;
+    padding: 15vh 0 0 11%;
   }
   .areas_trabajo .titulo h2 {
     font-weight: 800;
@@ -9978,6 +9981,7 @@ header {
   }
   .areas_trabajo .contenido .tarjeta {
     background-color: #FFA626;
+    padding: 30px 10px 50px 10px;
     height: auto;
     width: 25vw;
     border-radius: 30px;
@@ -10011,7 +10015,7 @@ header {
     background-color: #FFA626;
     margin: 8% 10%;
     border-radius: 30px;
-    padding: 30px;
+    padding: 30px 30px 70px 30px;
     text-align: center;
   }
 }
@@ -10028,16 +10032,16 @@ header {
   .estamos .contenido {
     display: flex;
     justify-content: space-between;
-    padding: 4vh 5% 0 5%;
+    padding: 4vh 5% 20vh 5%;
   }
   .estamos .contenido .noticia {
     padding: 30px;
-    height: auto;
     background-color: white;
     border-radius: 20px;
     width: 30vw;
     margin: 0 15px;
     text-align: center;
+    height: auto;
   }
   .estamos .contenido .noticia .title_news {
     padding: 15px;
@@ -10051,6 +10055,24 @@ header {
   .estamos .contenido .noticia p {
     text-align: left;
     padding: 20px;
+  }
+  .estamos .contenido .noticia .img_news_1 {
+    width: 100%;
+    height: 40%;
+    background-image: url("https://i.imgur.com/qMKlNR3.png");
+    background-size: cover;
+  }
+  .estamos .contenido .noticia .img_news_2 {
+    width: 100%;
+    height: 40%;
+    background-image: url("https://i.imgur.com/8Gh26xs.png");
+    background-size: cover;
+  }
+  .estamos .contenido .noticia .img_news_3 {
+    width: 100%;
+    height: 40%;
+    background-image: url("https://i.imgur.com/lzqLEhQ.jpg");
+    background-size: cover;
   }
 }
 @media screen and (max-width: 992px) {
