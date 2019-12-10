@@ -9843,8 +9843,9 @@ section {
   padding: 15px;
 }
 .areas_trabajo .contenido .tarjeta p {
-  padding: 15px 40px 15px 70px;
+  padding: 15px 40px 15px 60px;
   text-align: left;
+  font-size: 14px;
 }
 
 .estamos {
@@ -9855,6 +9856,21 @@ section {
 }
 .estamos .titulo h2 {
   font-weight: 800;
+}
+.estamos .contenido {
+  display: flex;
+  justify-content: space-between;
+  padding: 8vh 5% 0 5%;
+}
+.estamos .contenido .noticia {
+  padding: 30px;
+  height: 60vh;
+  background-color: white;
+  border-radius: 20px;
+  width: 20vw;
+}
+.estamos .contenido .noticia img {
+  width: 100%;
 }
 
 .contacto {
