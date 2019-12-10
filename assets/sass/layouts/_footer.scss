@@ -1,24 +1,30 @@
-@media screen and (min-width: $viewport-large) {
+@media screen and (min-width: $viewport-ml) {
     footer{
         background-color: $negro1;
-        height: 40vh;
         text-align: center;
 
         .logos{
             display: flex;
             justify-content: center;
             padding-top: 40px;
-            width: 100vw;
             .conecta{
-                width: 15%;
+                height: 10vh;
+                width: auto;
             }
         
             .mtt{
-                height: 20vh;
+                height: 12vh;
+                width: auto;
             }
         
             .corfo{
-                width: 15%;
+                height: 10vh;
+                width: auto;
+            }
+
+
+            img{
+                padding: 0 20px;
             }
         
         }
@@ -39,8 +45,46 @@
 }
 
 
-@media screen and (max-width: $viewport-large) {
+@media screen and (max-width: $viewport-ml) {
     footer{
-        display: none;
+        background-color: $negro1;
+        text-align: center;
+
+        .logos{
+
+            margin: 0 10vw;
+
+            .conecta{
+                height: 10vh;
+                width: auto;
+            }
+        
+            .mtt{
+                height: 12vh;
+                width: auto;
+            }
+        
+            .corfo{
+                height: 10vh;
+                width: auto;
+            }
+
+
+            img{
+                padding: 0 20px;
+            }
+        
+        }
+    }
+
+
+    .links
+    {
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+        .ref{
+            font-size: $small;
+        }
     }
 }

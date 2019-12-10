@@ -9897,26 +9897,30 @@ header {
     padding-bottom: 40px;
   }
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 992px) {
   footer {
     background-color: #1D1D1D;
-    height: 40vh;
     text-align: center;
   }
   footer .logos {
     display: flex;
     justify-content: center;
     padding-top: 40px;
-    width: 100vw;
   }
   footer .logos .conecta {
-    width: 15%;
+    height: 10vh;
+    width: auto;
   }
   footer .logos .mtt {
-    height: 20vh;
+    height: 12vh;
+    width: auto;
   }
   footer .logos .corfo {
-    width: 15%;
+    height: 10vh;
+    width: auto;
+  }
+  footer .logos img {
+    padding: 0 20px;
   }
   footer .links {
     display: flex;
@@ -9928,9 +9932,40 @@ header {
     font-size: 10px;
   }
 }
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 992px) {
   footer {
-    display: none;
+    background-color: #1D1D1D;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  footer .logos {
+    margin: 0 10vw;
+  }
+  footer .logos .conecta {
+    height: 10vh;
+    width: auto;
+  }
+  footer .logos .mtt {
+    height: 12vh;
+    width: auto;
+  }
+  footer .logos .corfo {
+    height: 10vh;
+    width: auto;
+  }
+  footer .logos img {
+    padding: 0 20px;
+  }
+
+  .links {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  }
+  .links .ref {
+    font-size: 10px;
   }
 }
 @media screen and (min-width: 992px) {
@@ -10060,43 +10095,52 @@ header {
 .contacto {
   background-color: #fff;
 }
+.contacto span {
+  font-family: "Raleway", sans-serif;
+}
 
 @media screen and (min-width: 1025px) {
   .contacto {
     height: 95vh;
+    display: flex;
+  }
+  .contacto .formulario {
+    padding-top: 15vh;
+    padding-left: 9%;
+    width: 55%;
+  }
+  .contacto .redes_contactos {
+    padding-top: 15vh;
+    padding-left: 10%;
+    width: 40%;
+  }
+  .contacto img {
+    width: 50%;
+    margin-bottom: 10%;
+  }
+  .contacto div {
+    padding: 5% 0;
+  }
+  .contacto div span {
+    padding-left: 5%;
   }
 }
-/*        height: 95vh;
-        display: flex;
-
-        .formulario{
-            padding-top: 15vh;
-            padding-left: 9%;
-            width: 55%;
-        }
-
-        .redes_contactos{
-            padding-top: 15vh;
-            padding-left: 10%;
-            width: 40%;
-
-            img{
-                width: 50%;
-                margin-bottom: 10%;
-            }
-
-            div{
-                padding: 5% 0;
-
-                p{
-                    display: inline;
-                    padding-left: 5%;
-                }
-            }
-
-
-        }
-    }
-}*/
+@media screen and (max-width: 1025px) {
+  .contacto .formulario {
+    margin: 0 0 0 17%;
+  }
+  .contacto iframe {
+    width: 80%;
+  }
+  .contacto .redes_contactos {
+    text-align: center;
+  }
+  .contacto .redes_contactos span {
+    text-align: right;
+  }
+  .contacto .redes_contactos img {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
