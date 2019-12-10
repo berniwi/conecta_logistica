@@ -9936,19 +9936,17 @@ header {
   footer {
     background-color: #1D1D1D;
     text-align: center;
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
   }
-  footer .logos {
-    margin: 0 10vw;
+  footer img {
+    margin: auto;
+    padding-top: 7vh;
   }
   footer .logos .conecta {
-    height: 10vh;
+    height: 15vh;
     width: auto;
   }
   footer .logos .mtt {
-    height: 12vh;
+    height: 15vh;
     width: auto;
   }
   footer .logos .corfo {
@@ -9958,13 +9956,11 @@ header {
   footer .logos img {
     padding: 0 20px;
   }
-
-  .links {
-    display: flex;
+  footer .links {
     justify-content: center;
     padding-top: 50px;
   }
-  .links .ref {
+  footer .links .ref {
     font-size: 10px;
   }
 }
@@ -10133,13 +10129,16 @@ header {
     width: 80%;
   }
   .contacto .redes_contactos {
-    text-align: center;
-  }
-  .contacto .redes_contactos span {
-    text-align: right;
-  }
-  .contacto .redes_contactos img {
     display: none;
+    /*text-align: center;
+
+    span{
+        text-align: right;
+    }
+
+    img{
+        display: none;
+    }*/
   }
 }
 

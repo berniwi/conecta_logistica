@@ -50,17 +50,18 @@
         background-color: $negro1;
         text-align: center;
 
+        img{
+            margin: auto;
+            padding-top: 7vh;
+        }
+
         .logos{
-
-            margin: 0 10vw;
-
             .conecta{
-                height: 10vh;
+                height: 15vh;
                 width: auto;
             }
-        
             .mtt{
-                height: 12vh;
+                height: 15vh;
                 width: auto;
             }
         
@@ -75,16 +76,13 @@
             }
         
         }
-    }
 
-
-    .links
-    {
-        display: flex;
-        justify-content: center;
-        padding-top: 50px;
-        .ref{
-            font-size: $small;
+        .links{
+            justify-content: center;
+            padding-top: 50px;
+            .ref{
+                font-size: $small;
+            }
         }
     }
 }
