@@ -1,4 +1,4 @@
-@media screen and (min-width: $viewport-large) {
+@media screen and (min-width: $viewport-ml) {
     
     .estamos{
         background-color: $azul1;
@@ -13,121 +13,77 @@
         .contenido{
             display: flex;
             justify-content: space-between;
-            padding: 8vh 5% 0 5%;
+            padding: 4vh 5% 0 5%;
 
             .noticia{
                 padding: 30px;
-                //height: 60vh;
-                background-color: white;
-                //border-radius: 20px;
-                //width: 20vw;
-            }
-        }
-    }
-}
-
-
-
-
-
-/* .contacto{
-        background-color: $blanco;
-        height: 95vh;
-        display: flex;
-    
-        .formulario{
-            padding-top: 15vh;
-            padding-left: 9%;
-            width: 55%;
-        }
-    
-        .redes_contactos{
-            padding-top: 15vh;
-            padding-left: 10%;
-            width: 40%;
-    
-            img{
-                width: 50%;
-                margin-bottom: 10%;
-            }
-    
-            div{
-                padding: 5% 0;
-    
-                p{
-                    display: inline;
-                    padding-left: 5%;
-                }
-            }
-    
-            
-        }
-    }
-}
-
-@media screen and (max-width: $viewport-large) {
-    .estamos{
-        background-color: $azul1;
-
-        /*.titulo{
-            padding: 20vh 0 0 11%;
-    
-            h2{
-                font-weight: 800;
-            }
-        }
-    
-        .contenido{
-            display: flex;
-            justify-content: space-between;
-            padding: 8vh 5% 0 5%;
-            .noticia{
-                padding: 30px;
-                height: 60vh;
+                height: auto;
                 background-color: white;
                 border-radius: 20px;
-                width: 20vw;
-    
-                img{
-                    width: 100%;
+                width: 30vw;
+                margin: 0 15px;
+                text-align: center;
+
+                .title_news{
+                    padding: 15px;
+                    display: flex;
+                    justify-content: space-between;
+
+                    span{
+                        font-size: $medium;
+                        font-family: $opensans;
+                    }
                 }
-            }
-        }
-    }
-    
-        .contacto{
-        display: none;
-        /*height: 95vh;
-        display: flex;
-    
-        .formulario{
-            padding-top: 15vh;
-            padding-left: 9%;
-            width: 55%;
-        }
-    
-        .redes_contactos{
-            padding-top: 15vh;
-            padding-left: 10%;
-            width: 40%;
-    
-            img{
-                width: 50%;
-                margin-bottom: 10%;
-            }
-    
-            div{
-                padding: 5% 0;
-    
+
                 p{
-                    display: inline;
-                    padding-left: 5%;
+                    text-align: left;
+                    padding: 20px;
                 }
             }
-    
-            
-        }
-    
         }
     }
-}*/
+}
+
+
+
+
+@media screen and (max-width: $viewport-ml) {
+    .estamos{
+        background-color: $azul1;
+        .titulo{
+            padding: 3vh 0 0 16vw;
+            h2{
+                font-weight: 400;
+            }
+        }
+
+        .contenido{
+            .noticia{
+                padding: 30px;
+                text-align: center;
+                background-color: white;
+                border-radius: 20px;
+                width: 90vw;
+                margin: 30px 5vw 50px 5vw;
+
+                .title_news{
+                    padding: 15px;
+                    display: flex;
+                    justify-content: space-between;
+
+                    span{
+                        font-size: $medium;
+                        font-family: $opensans;
+                    }
+                }
+
+                p{
+                    text-align: left;
+                    padding: 20px;
+                }
+            }
+        }
+    }
+}
+
+
