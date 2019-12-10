@@ -1,5 +1,5 @@
 header{
-    height: 100vh;
+    height: 104vh;
     background-image: url("../img/imagenconecta1.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,6 +26,9 @@ header{
 
     header{
         background-position: 55% 50%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
     }
 
     .cabecera{

@@ -1,0 +1,133 @@
+@media screen and (min-width: $viewport-large) {
+    
+    .estamos{
+        background-color: $azul1;
+        .titulo{
+            padding: 15vh 0 0 11%;
+    
+            h2{
+                font-weight: 800;
+            }
+        }
+    
+        .contenido{
+            display: flex;
+            justify-content: space-between;
+            padding: 8vh 5% 0 5%;
+
+            .noticia{
+                padding: 30px;
+                //height: 60vh;
+                background-color: white;
+                //border-radius: 20px;
+                //width: 20vw;
+            }
+        }
+    }
+}
+
+
+
+
+
+/* .contacto{
+        background-color: $blanco;
+        height: 95vh;
+        display: flex;
+    
+        .formulario{
+            padding-top: 15vh;
+            padding-left: 9%;
+            width: 55%;
+        }
+    
+        .redes_contactos{
+            padding-top: 15vh;
+            padding-left: 10%;
+            width: 40%;
+    
+            img{
+                width: 50%;
+                margin-bottom: 10%;
+            }
+    
+            div{
+                padding: 5% 0;
+    
+                p{
+                    display: inline;
+                    padding-left: 5%;
+                }
+            }
+    
+            
+        }
+    }
+}
+
+@media screen and (max-width: $viewport-large) {
+    .estamos{
+        background-color: $azul1;
+
+        /*.titulo{
+            padding: 20vh 0 0 11%;
+    
+            h2{
+                font-weight: 800;
+            }
+        }
+    
+        .contenido{
+            display: flex;
+            justify-content: space-between;
+            padding: 8vh 5% 0 5%;
+            .noticia{
+                padding: 30px;
+                height: 60vh;
+                background-color: white;
+                border-radius: 20px;
+                width: 20vw;
+    
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    
+        .contacto{
+        display: none;
+        /*height: 95vh;
+        display: flex;
+    
+        .formulario{
+            padding-top: 15vh;
+            padding-left: 9%;
+            width: 55%;
+        }
+    
+        .redes_contactos{
+            padding-top: 15vh;
+            padding-left: 10%;
+            width: 40%;
+    
+            img{
+                width: 50%;
+                margin-bottom: 10%;
+            }
+    
+            div{
+                padding: 5% 0;
+    
+                p{
+                    display: inline;
+                    padding-left: 5%;
+                }
+            }
+    
+            
+        }
+    
+        }
+    }
+}*/

@@ -9659,6 +9659,14 @@ h3 {
   box-sizing: border-box;
 }
 
+body {
+  background-color: #338BAE;
+}
+
+img {
+  width: 80%;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -9741,7 +9749,11 @@ a {
   color: #000;
 }
 
-@media screen and (min-width: 1024px) {
+.botonmenu {
+  display: none;
+}
+
+@media screen and (min-width: 1025px) {
   .nav {
     height: 12vh;
     width: 100vw;
@@ -9769,16 +9781,12 @@ a {
     width: 100%;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
   .nav {
-    height: 5vh;
-    /*width: 100vw;
+    height: 20vh;
+    width: 100vw;
     position: fixed;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 50px 0 10px ;
-    background-color: rgba(149,148,148,0.4);*/
+    padding: 10px 100px 0 30px;
   }
   .nav .redes {
     display: none;
@@ -9787,20 +9795,20 @@ a {
     display: none;
   }
   .nav .logo {
-    width: 10%;
+    width: 30%;
   }
   .nav .logo img {
     width: 100%;
   }
 }
 header {
-  height: 100vh;
+  height: 104vh;
   background-image: url("../img/imagenconecta1.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   .cabecera {
     height: 90vh;
     text-align: center;
@@ -9812,9 +9820,12 @@ header {
     color: #C30017;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
   header {
     background-position: 55% 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
   }
 
   .cabecera {
@@ -9827,17 +9838,12 @@ header {
     color: #C30017;
   }
 }
-@media screen and (min-width: 1024px) {
-  section {
-    height: 100vh;
-    width: 100vw;
-  }
-
+@media screen and (min-width: 1025px) {
   .quienes_somos {
     background-color: #338BAE;
   }
   .quienes_somos .titulo {
-    padding: 20vh 0 0 11%;
+    padding: 15vh 0 0 11%;
   }
   .quienes_somos .titulo h2 {
     font-weight: 800;
@@ -9858,233 +9864,40 @@ header {
     padding-bottom: 20px;
     line-height: 140%;
   }
-
-  .areas_trabajo {
-    background-color: #E03E51;
-  }
-  .areas_trabajo .titulo {
-    padding: 20vh 0 0 11%;
-  }
-  .areas_trabajo .titulo h2 {
-    font-weight: 800;
-  }
-  .areas_trabajo .contenido {
-    padding: 8vh 9% 0 9%;
-    display: flex;
-    justify-content: space-between;
-  }
-  .areas_trabajo .contenido .tarjeta {
-    background-color: #FFA626;
-    height: 60vh;
-    width: 25vw;
-    border-radius: 30px;
-    padding-top: 30px;
-    text-align: center;
-  }
-  .areas_trabajo .contenido .tarjeta img {
-    width: 50%;
-  }
-  .areas_trabajo .contenido .tarjeta h3 {
-    font-weight: 700;
-    padding: 15px;
-  }
-  .areas_trabajo .contenido .tarjeta p {
-    padding: 15px 40px 15px 60px;
-    text-align: left;
-    font-size: 14px;
-  }
-
-  .estamos {
-    background-color: #338BAE;
-  }
-  .estamos .titulo {
-    padding: 20vh 0 0 11%;
-  }
-  .estamos .titulo h2 {
-    font-weight: 800;
-  }
-  .estamos .contenido {
-    display: flex;
-    justify-content: space-between;
-    padding: 8vh 5% 0 5%;
-  }
-  .estamos .contenido .noticia {
-    padding: 30px;
-    height: 60vh;
-    background-color: white;
-    border-radius: 20px;
-    width: 20vw;
-  }
-  .estamos .contenido .noticia img {
-    width: 100%;
-  }
-
-  .contacto {
-    height: 95vh;
-    display: flex;
-  }
-  .contacto .formulario {
-    padding-top: 15vh;
-    padding-left: 9%;
-    width: 55%;
-  }
-  .contacto .redes_contactos {
-    padding-top: 15vh;
-    padding-left: 10%;
-    width: 40%;
-  }
-  .contacto .redes_contactos img {
-    width: 50%;
-    margin-bottom: 10%;
-  }
-  .contacto .redes_contactos div {
-    padding: 5% 0;
-  }
-  .contacto .redes_contactos div p {
-    display: inline;
-    padding-left: 5%;
-  }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
   .quienes_somos {
     background-color: #338BAE;
-    text-align: center;
   }
-
-  .titulo h2 {
+  .quienes_somos .titulo {
+    padding: 3vh 0 0 16vw;
+  }
+  .quienes_somos .titulo h2 {
     font-weight: 400;
   }
-
-  .contenido {
-    display: none;
-    /*height: 80vh;
-        margin-left: 10%;
-        margin-right: 10%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-        .parrafo{
-            width: 40%;
-
-            p{
-               color: white;
-               padding-bottom: 20px;
-               line-height: 140%;
-            }
-
-        }
-
-    }*/
+  .quienes_somos .contenido {
+    margin-left: 10%;
+    margin-right: 10%;
   }
-
-  .areas_trabajo {
-    display: none;
-    /*background-color: $rojo1;
-    .titulo{
-        padding: 20vh 0 0 11%;
-
-        h2{
-            font-weight: 800;
-        }
-    }
-
-    .contenido{
-        padding: 8vh 9% 0 9%;
-        display: flex;
-        justify-content: space-between;
-
-        .tarjeta{
-            background-color: $amarillo;
-            height: 60vh;
-            width: 25vw;
-            border-radius: 30px;
-            padding-top: 30px;
-            text-align: center;
-
-            img{
-                width: 50%;
-            }
-
-            h3{
-                font-weight: 700;
-                padding: 15px;
-            }
-
-            p{
-                padding: 15px 40px 15px 60px;
-                text-align: left;
-                font-size: 14px;
-            }
-
-        }
-    }*/
+  .quienes_somos .contenido .parrafo {
+    text-align: left;
   }
-
-  .estamos {
-    display: none;
-    /*background-color: $azul1;
-    .titulo{
-        padding: 20vh 0 0 11%;
-
-        h2{
-            font-weight: 800;
-        }
-    }
-
-    .contenido{
-        display: flex;
-        justify-content: space-between;
-        padding: 8vh 5% 0 5%;
-        .noticia{
-            padding: 30px;
-            height: 60vh;
-            background-color: white;
-            border-radius: 20px;
-            width: 20vw;
-
-            img{
-                width: 100%;
-            }
-        }
-    }*/
+  .quienes_somos .contenido .parrafo p {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 140%;
   }
-
-  .contacto {
-    display: none;
-    /*height: 95vh;
-    display: flex;
-
-    .formulario{
-        padding-top: 15vh;
-        padding-left: 9%;
-        width: 55%;
-    }
-
-    .redes_contactos{
-        padding-top: 15vh;
-        padding-left: 10%;
-        width: 40%;
-
-        img{
-            width: 50%;
-            margin-bottom: 10%;
-        }
-
-        div{
-            padding: 5% 0;
-
-            p{
-                display: inline;
-                padding-left: 5%;
-            }
-        }
-
-
-    }*/
+  .quienes_somos .contenido .v_conecta {
+    width: 100vw;
+  }
+  .quienes_somos .contenido .v_conecta .video iframe {
+    padding-top: 40px;
+    width: 97%;
+    padding-bottom: 40px;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   footer {
     background-color: #1D1D1D;
     height: 40vh;
@@ -10115,9 +9928,181 @@ header {
     font-size: 10px;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
   footer {
     display: none;
+  }
+}
+@media screen and (min-width: 992px) {
+  .areas_trabajo {
+    background-color: #E03E51;
+  }
+  .areas_trabajo .titulo {
+    padding: 15vh 0 20px 11%;
+  }
+  .areas_trabajo .titulo h2 {
+    font-weight: 800;
+  }
+  .areas_trabajo .contenido {
+    padding: 8vh 9% 20% 9%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .areas_trabajo .contenido .tarjeta {
+    background-color: #FFA626;
+    height: auto;
+    width: 25vw;
+    border-radius: 30px;
+    padding-top: 30px;
+    text-align: center;
+  }
+  .areas_trabajo .contenido img {
+    width: 50%;
+  }
+  .areas_trabajo .contenido h3 {
+    font-weight: 700;
+    padding: 15px;
+  }
+  .areas_trabajo .contenido p {
+    padding: 15px 40px 15px 60px;
+    text-align: left;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .areas_trabajo {
+    background-color: #E03E51;
+  }
+  .areas_trabajo .titulo {
+    padding: 3vh 0 0 16vw;
+  }
+  .areas_trabajo .titulo h2 {
+    font-weight: 400;
+  }
+  .areas_trabajo .contenido .tarjeta {
+    background-color: #FFA626;
+    margin: 8% 10%;
+    border-radius: 30px;
+    padding: 30px;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .estamos {
+    background-color: #338BAE;
+  }
+  .estamos .titulo {
+    padding: 15vh 0 0 11%;
+  }
+  .estamos .titulo h2 {
+    font-weight: 800;
+  }
+  .estamos .contenido {
+    display: flex;
+    justify-content: space-between;
+    /*.noticia{
+        padding: 30px;
+        height: 60vh;
+        background-color: white;
+        border-radius: 20px;
+        width: 20vw;
+
+        img{
+            width: 100%;
+        }
+    }*/
+  }
+
+  .contacto {
+    background-color: #fff;
+    height: 95vh;
+    display: flex;
+  }
+  .contacto .formulario {
+    padding-top: 15vh;
+    padding-left: 9%;
+    width: 55%;
+  }
+  .contacto .redes_contactos {
+    padding-top: 15vh;
+    padding-left: 10%;
+    width: 40%;
+  }
+  .contacto .redes_contactos img {
+    width: 50%;
+    margin-bottom: 10%;
+  }
+  .contacto .redes_contactos div {
+    padding: 5% 0;
+  }
+  .contacto .redes_contactos div p {
+    display: inline;
+    padding-left: 5%;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .estamos {
+    background-color: #338BAE;
+    /*.titulo{
+            padding: 20vh 0 0 11%;
+
+            h2{
+                font-weight: 800;
+            }
+        }
+
+        .contenido{
+            display: flex;
+            justify-content: space-between;
+            padding: 8vh 5% 0 5%;
+            .noticia{
+                padding: 30px;
+                height: 60vh;
+                background-color: white;
+                border-radius: 20px;
+                width: 20vw;
+
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+        .contacto{
+        display: none;
+        /*height: 95vh;
+        display: flex;
+
+        .formulario{
+            padding-top: 15vh;
+            padding-left: 9%;
+            width: 55%;
+        }
+
+        .redes_contactos{
+            padding-top: 15vh;
+            padding-left: 10%;
+            width: 40%;
+
+            img{
+                width: 50%;
+                margin-bottom: 10%;
+            }
+
+            div{
+                padding: 5% 0;
+
+                p{
+                    display: inline;
+                    padding-left: 5%;
+                }
+            }
+
+
+        }
+
+        }*/
   }
 }
 

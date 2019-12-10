@@ -1,0 +1,82 @@
+@media screen and (min-width: $viewport-large) {
+
+    .quienes_somos{
+        background-color: $azul1;
+        .titulo{
+            padding: 15vh 0 0 11%;
+    
+            h2{
+                font-weight: 800;
+            }
+        }
+
+        .contenido{
+    
+            height: 80vh;
+            margin-left: 10%;
+            margin-right: 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    
+            .parrafo{
+                width: 40%;
+    
+                p{
+                   color: white;
+                   padding-bottom: 20px;
+                   line-height: 140%;
+                }
+    
+            }
+    
+        }
+    }
+}
+
+@media screen and (max-width: $viewport-large) {
+
+    .quienes_somos{
+        background-color: $azul1;
+        .titulo{
+            padding: 3vh 0 0 16vw;
+    
+            h2{
+                font-weight: 400;
+            }
+        }
+
+        .contenido{
+
+            margin-left: 10%;
+            margin-right: 10%;
+    
+            .parrafo{
+                text-align: left;
+
+                p{
+                   color: white;
+                   padding-top: 20px;
+                   padding-bottom: 20px;
+                   line-height: 140%;
+                }
+    
+            }
+
+            .v_conecta{
+                width: 100vw;
+
+                .video{
+                    iframe{
+                        padding-top: 40px;
+                        width: 97%;
+                        padding-bottom: 40px;
+                    }
+
+                }
+            }
+    
+        }
+    }
+}
+

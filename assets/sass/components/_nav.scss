@@ -1,3 +1,7 @@
+.botonmenu{
+    display: none;
+}
+
 @media screen and (min-width: $viewport-large) {
     .nav{
         height: 12vh;
@@ -41,13 +45,9 @@
 @media screen and (max-width: $viewport-large) {
     .nav{
         height: 20vh;
-        /*width: 100vw;
+        width: 100vw;
         position: fixed;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0 50px 0 10px ;
-        background-color: rgba(149,148,148,0.4);*/
+        padding: 10px 100px 0 30px ;
 
         .redes{
             display: none;
@@ -56,9 +56,10 @@
         .menu{
             display: none;
         }
+
         
         .logo{
-            width: 100%;
+            width: 30%;
             img{
                 width: 100%;
             }
