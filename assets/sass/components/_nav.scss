@@ -37,8 +37,32 @@
     }
 }
 
+
 @media screen and (max-width: $viewport-large) {
     .nav{
-        display: none;
+        height: 20vh;
+        /*width: 100vw;
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 50px 0 10px ;
+        background-color: rgba(149,148,148,0.4);*/
+
+        .redes{
+            display: none;
+        }   
+        
+        .menu{
+            display: none;
+        }
+        
+        .logo{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
     }
 }
+

@@ -1,18 +1,44 @@
+header{
+    height: 100vh;
+    background-image: url("../img/imagenconecta1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+@media screen and (min-width: $viewport-large) {
+
+    .cabecera{
+        height: 90vh;
+        text-align: center;
+        padding: 15% 25% 0 25%;
+        display: flex;
+        justify-content: center;
+
+        h1{
+            color: $rojo;
+        }
+
+    }
+}
+
+@media screen and (max-width: $viewport-large) {
 
     header{
-        height: 100vh;
-        background-image: url("../img/imagenconecta1.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-        
-        .cabecera{
-            height: 90vh;
-            display: flex;
-            align-items: flex-end;
-            justify-content: center;
-    
-            h1{
-                color: $blanco;
-            }
+        background-position: 55% 50%;
+    }
+
+    .cabecera{
+        height: 90vh;
+        text-align: center;
+        padding: 40% 10% 0 10%;
+
+        h1{
+            font-size: $x-large;
+            color: $rojo;
         }
     }
+}
+
+        
+
